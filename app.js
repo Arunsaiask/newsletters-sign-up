@@ -40,7 +40,7 @@ app.post("/",function(req,res){
     ]
     };
   var jsondata = JSON.stringify(data);
-  const url = "https://us5.api.mailchimp.com/3.0/lists/5bd12c9395"
+  const url = "your mailchimp_key"
   const options = {
     method :"POST",
     auth : "arunsai:40fa9e21bd311a88ea19c2b72c9907d5-us5"
